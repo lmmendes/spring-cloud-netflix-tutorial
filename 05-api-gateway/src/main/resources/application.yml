@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: api-gateway
+
+# ribbon.eureka.enabled=false
+# zuul.stripPrefix=false to send the api gateway app prefix (name) to the applications
+# zuul.ignoredServices=<pattern> to Ignore servies
